@@ -1,3 +1,6 @@
+mod wayland;
+
 fn main() {
-    println!("Hello, world!");
+    env_logger::init();
+    wayland::start();
 }
